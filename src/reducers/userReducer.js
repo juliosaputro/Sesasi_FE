@@ -7,7 +7,7 @@ export const userReducers = createSlice({
     token: {
       value: "",
     },
-    isAuthenticated: {},
+    isAuthenticated:false,
   },
   reducers: {
     updateUser(state, action) {
